@@ -24,7 +24,7 @@ export class ProjectsComponent {
       description:
         'Developing solution by integrating sentiment analysis tools to determine sentiment of data with the probability score.Also, providing the user the flexibility to select any text on any webpage which will provide the PII details as output and also the text with the masked PII. ',
       techList: ['.NET', 'HTML', 'CSS'],
-      github: 'https://github.com/pravinmane1/clean-calculator',
+      github: 'https://github.com/YashVaish/Sentimental-Analysis',
       screenshot: 'https://i.ibb.co/Kx0LkCkR/Project-SAScreenshot.png',
       live: '',
     }
