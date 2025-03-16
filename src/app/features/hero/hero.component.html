@@ -1,0 +1,35 @@
+<section class="hero-section">
+  <div class="hero-content">
+    <h1 class="p1 animate" [ngClass]="{ 'fade-up': isLoading() }">
+      Hi, My Name is
+    </h1>
+    <span class="name-holder">
+      <h1 class="gradient t1 animate" [ngClass]="{ 'fade-up': isLoading() }">
+        Yash
+      </h1>
+      <h1 class="gradient t2 animate" [ngClass]="{ 'fade-up': isLoading() }">
+        Vaish.
+      </h1>
+    </span>
+    <p class="title-statement animate" [ngClass]="{ 'fade-up': isLoading() }">
+      I am a <span class="job-title">full stack software engineer </span>with a
+      strong focus in development, currently working at
+      <a href="hhttps://www2.deloitte.com/" target="_blank" class="jpmcolor">Deloitte USI.</a>
+    </p>
+    <app-social-links
+      class="social-media-links animate"
+      [ngClass]="{ 'fade-up': isLoading() }"
+    ></app-social-links>
+  </div>
+  <div class="hero-image-holder animate" [ngClass]="{ 'fade-up': isLoading() }">
+    <img
+      ngSrc="/assets/hero_image.webp"
+      width="250"
+      height="250"
+      class="hero-image"
+      ngSrcset="100w, 200w, 300w"
+      alt="hero image"
+      priority
+    />
+  </div>
+</section>
