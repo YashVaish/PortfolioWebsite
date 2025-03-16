@@ -1,9 +1,5 @@
 # Portfolio
 
-<h1 align="center">
-  Live URL - https://www.yashvaish.com
-</h1>
-
 ![image](https://github.com/YashVaish/PortfolioWebsite/blob/main/ProjectPortfolioScreenshot.png)
 
 ## 🛠 Installation & Set Up
